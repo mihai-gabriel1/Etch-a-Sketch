@@ -1,0 +1,14 @@
+.square {
+  background-color: red;
+  border: 1px solid #d63d26;
+}
+
+html {
+  border: 20px solid blacks;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
