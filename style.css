@@ -1,6 +1,6 @@
 .square {
-  background-color: red;
-  border: 1px solid #d63d26;
+  background-color: rgba(187, 206, 16, 0.158);
+  border: 1px solid black;
 }
 
 html {
@@ -13,6 +13,6 @@ body {
   align-items: center;
 }
 
-.square:hover {
+/* .square:hover {
   background-color: rgb(255, 255, 0);
-}
+} */

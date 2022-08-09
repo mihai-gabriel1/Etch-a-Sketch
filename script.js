@@ -15,3 +15,11 @@ function buildGrid(x, y, cellSize, gridElement) {
 }
 
 buildGrid(32, 32, 25, document.querySelector(".grid"));
+
+function setNewColor() {
+  console.log("This is mouse in!");
+}
+
+function setOtherColor() {
+  console.log("This is mouse out.");
+}
