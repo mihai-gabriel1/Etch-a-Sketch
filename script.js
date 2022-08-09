@@ -17,4 +17,8 @@ function buildGrid(x, y, cellSize, gridElement) {
   gridElement.appendChild(squares);
 }
 
-buildGrid(40, 40, 20, document.querySelector(".grid"));
+buildGrid(30, 30, 20, document.querySelector(".grid"));
+
+function refreshPage() {
+  window.location.reload();
+}
