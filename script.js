@@ -9,17 +9,12 @@ function buildGrid(x, y, cellSize, gridElement) {
     let square = document.createElement("div");
     square.className = "square";
     squares.appendChild(square);
+    square.addEventListener("mouseover", function () {
+      square.classList.add("active");
+    });
   }
 
   gridElement.appendChild(squares);
 }
 
-buildGrid(32, 32, 25, document.querySelector(".grid"));
-
-function setNewColor() {
-  console.log("This is mouse in!");
-}
-
-function setOtherColor() {
-  console.log("This is mouse out.");
-}
+buildGrid(40, 40, 20, document.querySelector(".grid"));
